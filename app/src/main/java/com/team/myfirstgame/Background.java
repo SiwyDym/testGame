@@ -19,7 +19,7 @@ public class Background {
     {
         x+=dx;
         if(x<-GamePanel.WIDTH){
-            x=0;
+            x=0; //dupka
         }
     }
     public void draw(Canvas canvas)
